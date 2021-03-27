@@ -4,6 +4,7 @@ This service runs a script that provides hourly weather updates from https://wtt
 1. Move motd.service and motd.timer into the /etc/systemd/system directory
 
   sudo mv motd.service /etc/systemd/system
+  
   sudo mv motd.timer /etc/systemd/system
 
 2. If the /home/vagrant/scripts directory does not exist, create it.
