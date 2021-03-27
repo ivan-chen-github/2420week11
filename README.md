@@ -29,6 +29,7 @@ This service runs a script that provides hourly weather updates from https://wtt
   sudo systemctl start motd.timer
   
 Every hour the script will write the weather updates to /home/etc/motd.
+
 You can check the output by entering the following command into the terminal:
   
   cat /etc/motd
