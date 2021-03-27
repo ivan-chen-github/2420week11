@@ -3,7 +3,7 @@ Description=Run motd hourly
 
 [Timer]
 Unit=motd.service
-OnCalendar=*:/1
+OnCalendar=0/1
 Persistent=true
 
 [Install]
