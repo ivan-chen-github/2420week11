@@ -1,0 +1,11 @@
+[Unit]
+Description=this is my weather service
+
+[Service]
+Type=simple
+ExecStart=/home/vagrant/scripts/wttr.sh
+WorkingDirectory=/home/vagrant/scripts
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

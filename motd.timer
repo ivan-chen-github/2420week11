@@ -1,0 +1,10 @@
+[Unit]
+Description=Run motd hourly
+
+[Timer]
+Unit=motd.service
+OnCalendar=*:/1
+Persistent=true
+
+[Install]
+WantedBy=timers.target
